@@ -1,0 +1,590 @@
+* {
+	margin: 0;
+	
+}
+body {
+/*color: #444;*/
+background-color: #edf6e3;
+background-image: url(../images/fondopergamino2.jpg);
+background-position: top center;
+background-repeat: repeat-y;
+width: 100%;
+height: 100%;
+font-size: 75%;
+line-height: 175%;
+font-family: Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif;
+text-align: left;
+margin: 0;
+padding: 0;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.page_wrapper, .album2 {
+	width: 60%;
+	position: relative;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+
+  background: #F5E783;
+  border-left: solid 2px #fff;
+  border-right: solid 2px #fff;
+}
+#frases {
+	background: #449F34; 
+	color: #fff;
+	font-size: 118%;
+	text-align: center;
+	line-height: 20px;
+}
+#intro {
+	text-align: justify;
+}
+.fondointro {
+	background: #F5E783;
+	color: #3b5d75;
+}
+
+.margenparrafo1 {
+	font-size: 135%;
+	margin-left: 2%;
+	margin-right: 2%;
+	top: 2%;
+	text-justify: inter-character;
+	padding: 1%;
+	line-height: 180%;
+	text-indent: 2em;
+}
+.contenedor2 {
+	display: inline-block;
+	grid-template-columns: repeat(auto-fit, 100% /*200px*/);
+	grid-template-rows: 200% 50%;/*400px 100px;*/
+	grid-gap: 1%;
+	/*grid-auto-flow: dense;*/
+}
+
+.lateralizq {
+	position: absolute;
+	top: 8.5%;
+	left: 60%;
+	right: 5%;
+	order: 2;
+	width: 37%;
+	height: 95%;
+	line-height: 30px;
+	
+}
+
+.contcentro {
+	grid-column: span 8;
+	order: 1;
+	background: #F5E783;
+	top: 10%;
+	text-align: justify;
+	width: 57%;
+	font-size: 100%;
+	margin-left: 1%;
+	/*padding-left: 30px;
+	padding-right: 20px;*/
+	
+}
+
+#indice {
+	background: #8998B3; 
+	border: 3px solid white;
+	margin: 5%;
+	padding: 3px;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+	list-style-type: circle;
+	height: 95%;
+}
+#indice p {
+	margin-left: 4%;
+	margin-top: 6%;
+	margin-bottom: 0;
+}
+#listado {
+	margin-bottom: 0;
+	/*padding: 5%;*/
+	margin-left: 5%;
+	margin-right: 3%;
+	font-family: Calibri, Candara;
+	font-size: 80%;
+}
+.gatos {
+	padding: 4%;
+	margin: 4%;
+	margin-top: 2%;
+	border: 2px solid #3C5A6F;
+	color: #3b5d75;
+	font-size: 135%;
+	width: 88%;
+}
+.margenparrafo2 {
+	margin: 5%;
+	margin-top: 5%;
+	text-indent: 2em;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 450%;
+	font-weight: bold;
+	color: #3C5A6F;
+	text-shadow: 0px 9px 8px white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 0px;
+	padding-bottom: 5%;
+	text-align: center;
+	
+}
+h2 {
+	font-family: Monaco, sans-serif;
+	font-size: 190%;
+	font-weight: bold;
+	color: #1D282E;
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	
+	
+}
+h3 {
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 160%;
+	font-style: oblique;
+	font-weight: bold;
+	color: #318B22; /*#7B694C;*/
+	text-indent: 0.5em;
+	line-height: 100%;
+}
+.imgder {
+	margin: 2%;
+	margin-left: 5%;
+	padding: 2%; 
+	border: 2px solid black; 
+	float: right; 
+	width: 42%;
+}
+table {
+	margin: 3%;
+	padding: 2%;
+	border-collapse: separate;
+	border-color:#3C5A6F;
+	border-spacing: 3px;
+    background: #000 url("../images/gradientetabla.jpg") bottom left repeat;
+	border-width: 3px;
+	caption-side: top;
+	width: 98%;
+	font-size: 130%;
+}
+th, td {
+	width: 25%;
+	text-align: left;
+	vertical-align: center;
+	border: 1px solid #000;
+}
+
+.captabla {
+	background: #285F1F;
+	color: white;
+}
+.tablatit {
+	text-align: center;
+}
+tr:nth-child(2n+4){
+	background-color: #B3D0AE; 
+}
+tr:hover td:nth-of-type(n+1){
+	background-color:#D4DAD3;
+	border-color:#C6C3BE;
+}
+#advertencia {
+ 	background: #000 url("../images/warningicon3.webp") center /*#F8B42B*/;
+	background-size: cover;
+	opacity: .95;
+	font-family: "Comic Sans", Verdana, sans-serif; 
+	color:#fff;
+	overflow: hidden;
+	border-radius: 25% 0;
+	border: 5px solid #E71F1F;
+	box-shadow:4px 6px 30px black;
+	box-sizing: content-box;
+	width: 100%;
+	padding: 10%;
+	margin: 10%;
+}
+#titadvertencia {
+	margin-top: 5%;
+	text-align: center;
+	font-size: 175%;
+	font-weight: bolder;
+	  -webkit-text-stroke: 1px red;
+}
+.textadvertencia {
+	font-size: 97%; 
+	font-weight: 500; 
+	opacity: 1;
+	  -webkit-text-stroke: 1px red;
+	
+	/*background-image: linear-gradient(45deg, #0a5ed1, #fff);
+	background-clip: text;
+	-webkit-text-fill-color: transparent; */
+    
+	padding-top: 7%;
+	padding-bottom: 7%;
+	margin: 1%;
+	z-index: 100;
+}
+
+#seccion4 p{
+	margin-left:5%;
+	margin-right:4%;
+	line-height:150%;
+	text-indent: 2em;
+}
+#seccion4 h3 {
+	color: #008B8B;
+}
+#seccionrecomendaciones {
+	background: linear-gradient(90deg, transparent, #F5E783 0%, #d9e7ff 100%);
+	border: 2px solid #3C5A6F;
+	margin: 4%;
+	padding: 4%;
+	width: 88%;
+	font-size: 135%;
+	color: #3b5d75;
+	/*	padding: 4%;
+	margin: 4%;
+	margin-top: 2%;
+	border: 2px solid #3C5A6F;
+	color: #3b5d75;
+	font-size: 135%;
+	width: 88%;*/
+}
+
+#lista1 {
+	margin-left: 7%;
+	margin-right: 7%;
+	line-height: 150%;
+}
+.listadoequipo {
+	list-style-type: none;
+	padding-left: 2%;
+	
+}
+.listadoequipo li {	
+	position: relative;
+	padding-left: 4%;
+	padding-right: 5%;
+	height: 100%;
+}
+.listadoequipo li:before { 
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	
+	background-image: url(../images/starblacksolid2.png);
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	margin-right: 1%;
+	
+}
+/* .listadoequipo li {	 */
+	/* list-style-type: none; */
+	/* padding-left: 1rem; */
+	/* background-image: url(starblacksolid2.png); */
+	/* background-position: 0 2%; */
+	/* background-size: 1rem 1rem; */
+	/* background-repeat: no-repeat; */
+/* } */
+
+#seccion5 {
+		/*background: linear-gradient(120deg, #FBCEB1 0%, #fd5c63 100%);*/
+	/*background-image: url(fondogatos.webp);
+	background-size: cover;*/
+	padding: 4%;
+	margin-top: 2%;
+	color: #3b5d75;
+	
+	
+}
+#seccion5 p {
+	margin-top: 3%;
+	margin-left: 4%;
+	margin-right: 4%;
+	/* margin-bottom: 3%; */
+	line-height: 120%;
+	font-size: 115%
+}
+.otrosgatospaseo {
+	margin-top: 1%;
+	margin-left: 12%;
+	line-height: 140%;
+}
+.parrafopresentaciones1 {
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 155%;
+	color: #3b5d75;
+}
+.parrafopresentaciones2 {
+	margin-left: 8%;
+	margin-right: 8%;
+	line-height: 150%;
+	color: #3b5d75;
+}
+#seccionpresentacion {
+	/* background: url("fondocorazones2.webp"); */
+	/*background-size: cover;*/
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5%;
+	padding-top: 5%;
+	
+}
+#seccionpresentacion p {
+	text-indent: 2em;
+}
+#seccionpresentacion ul {
+	list-style-type: square;
+}
+
+#recuerda {
+	padding: 15%;
+	margin: 5%;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 10%;	
+	opacity: .95;
+	
+	font-family: Georgia, Verdana, Sans-serif; 
+	font-size: 95%; 
+	font-weight: 400; 
+	text-align: center;
+	
+	color: #fff;
+	line-height: 150%;
+	overflow: hidden;
+	background: #0ac5d1;
+	border-radius: 50% 50%;
+	border: 5px solid #4c0ad1;
+	box-sizing: content-box;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+#imgpatxiysonqo {
+	margin: 5%;
+	padding: 2%; 
+	border: 2px solid white; 
+	width: 55%;
+}
+#titrecuerda {
+	font-size: 150%;
+	margin-left: 0;
+	margin-bottom: 3%;
+}
+dd em dfn {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+#aviso_importante {
+	background: url("../images/pergamino3.png");
+	background-size: 100% 100%;
+	border: 5px solid brown;
+	margin: 3%;
+	padding: 20%;
+    width: 100%;
+    
+	/* background: #f0ad4e; */
+	
+    /* border-radius: 45% 45% 0 0; */
+    overflow: hidden;
+	box-sizing: border-box;
+
+	
+	color: #191970;
+}
+#aviso_importante p{
+		text-align: center;
+		margin-right: 15%;
+		line-height: 130%;
+		font-family: "Bodoni MT", Palatino, "Old Charlotte", Arial, sans-serif;
+		font-size: 110%;
+}
+.titimportante {
+	font-size: 200%;
+	
+}
+#seccion6 {
+	margin: 3%;
+	padding: 4%;
+	/* background: linear-gradient(to bottom, #3A444D 10%, #BCCDDD); */
+	color: #3b5d75;	
+}
+.otrosrecursos {
+	margin-top: 0;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+.otrosrecursos dt a{
+	font-style: oblique;
+	color: brown;
+}
+.otrosrecursos dd{
+	margin-left: 5%;
+}
+.parrafootrosrecursos {
+	margin-left: 4%;
+	margin-bottom: 1%;
+	text-indent: 1em;
+}
+#redes {
+	padding: 4%;
+	margin: 4%;
+	margin-top: 2%;
+	border: 2px solid #3C5A6F;
+	color: #3b5d75;
+	font-size: 135%;
+	width: 88%;
+	
+	/* background: url("fondowave.webp"); */
+	
+
+}
+#redes p {
+	margin-left: 10%;
+}
+.parrafosiguenos {
+	margin-left: 15%;
+	list-style-type: disc;
+	font-style: oblique;
+}
+#formulario {
+	padding: 4%;
+	margin: 4%;
+	margin-top: 2%;
+	border: 2px solid #3C5A6F;
+	color: #3b5d75;
+	font-size: 135%;
+	width: 88%;
+	/* margin: 5%; */
+	/* padding: 7%; */
+	/* background: url("fondopizarra1.jpg");	 */
+	/* border: 4px solid #93502A; */
+	
+}
+#formulario h2 {
+	;
+}
+#formulario p {
+	color: #3b5d75;
+	
+}
+form {
+	width:80%;
+	padding:5%;
+	border-radius:5%;
+	margin:5%;
+	margin-left: 5%;
+	border: 5px solid #120673;
+	background-image: url("../images/fondo2.webp");
+	background-size: 100% 100%;
+}
+
+form label{
+	margin-left: 5%;
+	margin-right: 5%;
+	width:20%;
+	font-weight:bold;
+	font-family: Candara, Verdana, Sans-serif;
+	font-size: 130%;
+	display:inline-block;
+		
+}
+
+.posicionform {
+	width: 50%;
+	height: 20px;
+	padding: 3px 10px;
+	border: 2px solid #3b5d75;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	margin: 1%;
+	display: inline-block;
+}
+form textarea {
+	margin: 7%;
+	width: 80%;
+	height: 10em;
+	border: 2px solid #3b5d75;
+ }
+.boton1, .boton2 {
+	width:25%;
+	padding:8px 16px;
+	margin-top:2%;
+	border: 2px solid #000;
+	background: #3b5d75;
+	color: white;
+}
+.boton1 {
+	margin-left: 8%;
+	margin-right: 15%;
+}
+.boton2 {
+	margin-left: 15%;
+	margin-right: 8%;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #002D72;
+}
+
+a:visited {
+  color: #DA1AD2;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+.contenidoalbum {
+	display: flex;
+}
+.fotosize { 
+	margin: 2%;
+	margin-left: 10%;
+	padding: 2%; 
+	border: 2px solid black; 
+	width: 33%;
+}
+.parrafoalbum {
+	margin: 2%;
+	font-family: Arial, sans-serif;
+	font-size: 150%;
+}
+.parrafoalbum2 {
+	margin-left: 20%;
+	font-size: 120%;
+}
